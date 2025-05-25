@@ -1,0 +1,23 @@
+<script>
+    object1={
+        'name':'Ganesha',
+        'age':19,
+        'Ph':9441833256
+    }
+    console.log(object1['age']);
+    console.log(object1.Ph);
+    console.log(object1);
+    object1['gender']='Male';
+    console.log(object1);
+    object1.age=18;
+    console.log(object1);
+    object1.salary='1cr';
+    console.log(object1);
+    delete object1['age'];
+    console.log(object1);
+    console.log(Object.keys(object1));//keys will come as a array [list]
+     console.log(Object.values(object1));//values will come as a array 
+     console.log(Object.entries(object1));// full entries as a array
+    delete object1;
+    console.log(object1);
+</script>
